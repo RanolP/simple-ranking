@@ -1,0 +1,9 @@
+name = "simple-ranking"
+
+main = "./src/index.js"
+compatibility_date = "2022-11-24"
+
+[[ d1_databases ]]
+binding = 'DB'
+database_name = "simple-ranking"
+database_id = "<여기에 데이터베이스 ID를 입력하세요>"
