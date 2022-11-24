@@ -40,7 +40,7 @@ router
      */
     async (req, env) => {
       const res = await env.DB.prepare(
-        'SELECT * FROM scores WHERE classId = ? ORDER BY score DESC LIMIT 10',
+        'SELECT * FROM scores WHERE classId = ? ORDER BY score DESC',
       )
         .bind(Number(req.params.classId))
         .all();
